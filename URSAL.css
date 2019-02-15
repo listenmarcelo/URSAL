@@ -1,0 +1,24 @@
+/* irá fazer com que o html e o body ocupem todo o espaço da tela */
+html,body{
+    width:100%;
+    /* largura 100% da tela */
+    height:100%;
+    /* altura da tela */
+}
+/* estamos dando o comando pra que ele aplica os estilos para essas duas coordenadas html e body */
+header{
+    height: 100%;
+    background: url(affs.jpg) no-repeat center bottom;
+    /* coloca uma imagem como um plano de fundo, não uma cor solida ou vazio */
+    background-size: cover;
+    /* faz a imagem cobrir todo o body da tela e se ajustar  */
+    text-align: center;
+    /* centraliza nosso texto */
+} 
+.nav-transparent{
+    background: transparent !important;
+}
+
+a{
+    color:goldenrod !important;
+}
